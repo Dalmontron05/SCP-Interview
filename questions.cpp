@@ -1,5 +1,9 @@
+//* Contains interview questions and calculateResults functions
+
 // Imports
 #include "questions.h"
+#include "functions.h"
+#include "functions.cpp"
 
 #include <iostream>
 #include <stdlib.h>
@@ -25,21 +29,25 @@ void question1()
 
     cout << "What does the acronym SCP stand for?\n\n";
 
+    // Asks user for answer, then makes sure that answer is lowercase
     cout << "The S stands for: ";
     cin >> s;
     cin.ignore(1000, '\n');
+    // s = toLower(s);
 
     cout << "The C stands for: ";
     cin >> c;
     cin.ignore(1000, '\n');
+    // c = toLower(c);
 
     cout << "The P stands for: ";
     cin >> p;
     cin.ignore(1000, '\n');
+    // p = toLower(p);
 
 
 
-    if ((s == "secure" ||  s == "Secure") && (c == "contain" || c == "Contain") && (p == "protect" || p == "Protect"))
+    if (s == "secure" && c == "contain" && p == "protect")
     {
         cout << "\nCorrect.";
         answers.numberCorrect++;
