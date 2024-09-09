@@ -70,7 +70,7 @@ void question2()
     cin.ignore(1000, '\n');
     // answer = toLower(answer);
 
-    if (answer == 'f')
+    if (answer == 'f' || answer == 'F')
     {
         cout << "\nCorrect.";
         answers.numberCorrect++;
@@ -100,7 +100,7 @@ void question3()
     cin.ignore(1000, '\n');
     // answer = toLower(answer);
 
-    if (answer == 'a')
+    if (answer == 'a' && answer == 'A')
     {
         cout << "\nCorrect.";
         answers.numberCorrect++;
