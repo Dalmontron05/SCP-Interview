@@ -42,7 +42,7 @@ int main()
     // main 'quiz taking state' of the loop lives here
     do
     {
-        if (agreement == 'y')
+        if (agreement == 'y' || agreement == 'Y')
         {
             cout << "Then let's begin.\n\n\n";
             introduction();
@@ -127,7 +127,7 @@ void Retry()
     cin >> willRetry;
     cin.ignore(1000, '\n');
 
-    if (willRetry == 'y')
+    if (willRetry == 'y' || willRetry == 'Y')
     {
         willRetakeTest = true;
     }
