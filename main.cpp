@@ -1,7 +1,6 @@
 //* Main C++ file
 /*
-TODO: utilize toLower function
-
+TODO: overload toLower with char eqivalent
 TODO: automatically fail the test once they can no longer pass (maybe have functions return something?)
 TODO: "status bar" at the top of the terminal that shows how many questions you've answered, how many you've gotten right, and how many achievments you have.
 TODO: add achievments (like the "tell me i'm not the most valuable member of this team" thing from that one scp movie)

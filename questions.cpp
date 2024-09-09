@@ -33,20 +33,20 @@ void question1()
     cout << "The S stands for: ";
     cin >> s;
     cin.ignore(1000, '\n');
-    // s = toLower(s);
+    s = toLower(s);
 
     cout << "The C stands for: ";
     cin >> c;
     cin.ignore(1000, '\n');
-    // c = toLower(c);
+    c = toLower(c);
 
     cout << "The P stands for: ";
     cin >> p;
     cin.ignore(1000, '\n');
-    // p = toLower(p);
+    p = toLower(p);
 
 
-
+    // checks if all 3 strings are correct. an incorrect answer will print an explanation to the answer
     if (s == "secure" && c == "contain" && p == "protect")
     {
         cout << "\nCorrect.";
@@ -68,8 +68,9 @@ void question2()
     cout << "True or False? (enter 't' for true or 'f' for false): ";
     cin >> answer;
     cin.ignore(1000, '\n');
+    // answer = toLower(answer);
 
-    if (answer == 'f' || answer == 'F')
+    if (answer == 'f')
     {
         cout << "\nCorrect.";
         answers.numberCorrect++;
@@ -97,8 +98,9 @@ void question3()
     cout << "Enter the corresponding multi-choice letter: ";
     cin >> answer;
     cin.ignore(1000, '\n');
+    // answer = toLower(answer);
 
-    if (answer == 'A' || answer == 'a')
+    if (answer == 'a')
     {
         cout << "\nCorrect.";
         answers.numberCorrect++;
