@@ -1,6 +1,6 @@
-Results:
+Results for Daljeet Singh:
 Question 1: Correct
 Question 2: Correct
-Question 3: Correct
+Question 3: Incorrect
 Question 4: Correct
-Number Correct: 4/4
+Number Correct: 3/4
