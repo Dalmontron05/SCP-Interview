@@ -1,16 +1,13 @@
 //* Main C++ file
 /*
-TODO: include names in results file
+TODO: make one of the questions with an askii image art
 
 TODO: automatically fail the test once they can no longer pass (maybe have functions return something?)
 TODO: "status bar" at the top of the terminal that shows how many questions you've answered, how many you've gotten right, and how many achievments you have.
 TODO: add achievments (like the "tell me i'm not the most valuable member of this team" thing from that one scp movie)
 TODO: make terminal colored (ANSI escape code)
-TODO: make one of the questions with an askii image art
 TODO: make obnoxious ding and buzzer sound effects depending on what the user answers on a per question basis
 */
-
-
 
 // Imports
 #include <iostream>
